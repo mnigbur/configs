@@ -20,9 +20,10 @@ defbce on
 mousetrack on
 
 # default windows
-screen -t Shell1  1 bash
-screen -t Shell2  2 bash
-select 0
+screen -t TOP  1 htop
+screen 2 zsh
+screen 3 zsh
+select 3
 bind c screen 1 # window numbering starts at 1 not 0
 bind 0 select 10
 
