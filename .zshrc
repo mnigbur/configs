@@ -83,3 +83,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias sshhass="ssh pyrania@192.168.178.32"
+alias tfhass="tailf /home/homeassistant/.homeassistant/home-assistant.log"
