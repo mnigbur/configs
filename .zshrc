@@ -85,3 +85,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias sshhass="ssh pyrania@192.168.178.32"
 alias tfhass="tailf /home/homeassistant/.homeassistant/home-assistant.log"
+
+# Disable hostname completion
+zstyle ':completion:*' hosts off
