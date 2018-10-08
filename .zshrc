@@ -32,7 +32,7 @@ ZSH_THEME="agnoster"
 # ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -88,3 +88,7 @@ alias tfhass="tailf /home/homeassistant/.homeassistant/home-assistant.log"
 
 # Disable hostname completion
 zstyle ':completion:*' hosts off
+
+__git_files () { 
+  _wanted files expl 'local files' _files     
+}
